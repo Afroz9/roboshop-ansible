@@ -12,7 +12,7 @@
     name: rabbitmq-server
     state: installed
 
-- name: Start RabbitMQ Service
+- name: Start RabbitMQ Server
   ansible.builtin.systemd:
     name: rabbitmq-server
     state: restarted
